@@ -11,7 +11,7 @@ h1, h2, h3 {
 }
 
 h1{
-  color: #00CC99;
+  color: #FFEE88;
 }
 
 h2 {
@@ -51,6 +51,14 @@ text-align: center;
   list-style: none;
   padding: 0;
 }
+
+.link-list li {
+  display: inline-block;
+  padding-inline: 25px;
+  font-size: 40px;
+
+}
+
 
 .false-btn {
   font-size: 10px;
