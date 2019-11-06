@@ -1,0 +1,85 @@
+body {
+  background-color: #7C6C77;
+  font-family: sans-serif;
+  color: #aaf;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+h1, h2, h3 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+h1{
+  color: #00CC99;
+}
+
+h2 {
+  color: #28385C;
+}
+
+h3 {
+  color: #FFEE88;
+}
+
+h4 {
+  color: #FFEE88;
+  font-size: 14px;
+  line-height: 0px;
+}
+
+a {
+  color: #B2B6C0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #28385C;
+}
+
+.card {
+background-color: #7C6C77;
+margin: 20px auto;
+padding: 20px;
+width: 700px;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.1);
+text-align: center;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.false-btn {
+  font-size: 10px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.3);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 520px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 350px;
+  }
+}
+
+/*
+
+
+
+*/
